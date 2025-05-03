@@ -129,7 +129,7 @@
   }
 
   body {
-    @apply text-foreground;
+    @apply text-foreground xl:bg-white lg:bg-green-400/10 md:bg-blue-400/10 sm:bg-red-400/10 bg-red-100/10;
   }
 
   .container {

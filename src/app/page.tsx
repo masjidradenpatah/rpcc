@@ -14,14 +14,14 @@ export default function Home() {
         <Navbar />
         <main className={'mt-20 relative flex flex-col gap-48'}>
           <Hero />
-          <Definition />
-          <Theme />
-          <Speakers />
-          <Timeline />
-          <Benefit />
-          <Cta />
+          {/*<Definition />*/}
+          {/*<Theme />*/}
+          {/*<Speakers />*/}
+          {/*<Timeline />*/}
+          {/*<Benefit />*/}
+          {/*<Cta />*/}
         </main>
-        <Footer />
+        {/*<Footer />*/}
       </div>
   );
 }
