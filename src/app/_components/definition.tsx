@@ -4,7 +4,7 @@ import defobj from "../../../public/definition-obj.png";
 
 const Definition = () => {
   return (
-      <section className={'container mx-auto'}>
+      <section className={'container mx-auto'} >
         <h2 className={'text-5xl text-center font-bold font-mono text-secondary'}>Apa itu Webinar RPCC ?</h2>
         <div className={'flex items-center justify-between'}>
               <p className={'relative font-normal text-black text-2xl basis-8/12'}>
