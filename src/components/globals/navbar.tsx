@@ -20,9 +20,9 @@ const Navbar = () => {
             >
               <Link href={'#'} >Home</Link>
             </Button>
-            <Button variant={'ghost'}  className={'border-none text-lg'} asChild>
-              <Link href={'https://radenpatah.com'}>Masjid Raden Patah</Link>
-            </Button>
+            {/*<Button variant={'ghost'}  className={'border-none text-lg'} asChild>*/}
+            {/*  <Link href={'https://radenpatah.com'}>Masjid Raden Patah</Link>*/}
+            {/*</Button>*/}
             <Button className={'text-lg'} asChild>
               <Link href={'https://forms.gle/wKB8W9GLnpKmEFMGA'}>Daftar RPCC</Link>
             </Button>
