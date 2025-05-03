@@ -7,15 +7,25 @@ import laptop from "../../../public/laptop-arrow-up-alt 2.svg";
 import emoney from "../../../public/money-bill 1.svg";
 import book from "../../../public/book 1.svg";
 import crown from "../../../public/crown 1.svg";
+
 import {cn} from "@/lib/utils";
+import objbgArrow from "../../../public/obj-bg-arrows.svg";
+import objbg6 from "../../../public/obj-bg-6.svg";
+import objbg7 from "../../../public/obj-bg-7.svg";
+import bgBenfit from "../../../public/bg-benefit.svg";
 
 const Benefit = () => {
-  return (<section className={'container mx-auto'}>
-    <div className={'mx-auto relative border w-fit mb-16'}>
-      <h2 className={'text-4xl text-center font-bold font-mono text-white bg-secondary py-2 px-4 w-fit'}>
+  return (<section className={'container mx-auto relative'}>
+    <Image src={objbgArrow} alt={''} className={'-top-24 -left-36' +
+        '  absolute'}></Image>
+    <div className={'mx-auto relative w-fit mb-16'}>
+      <Image src={bgBenfit} alt={''} className={'absolute -top-4 scale-150 -z-10'}></Image>
+      <h2 className={'text-4xl text-center font-bold font-mono text-white  w-fit'}>
         Kenapa Kamu Harus Ikut ? </h2>
     </div>
     <div className={'relative flex items-center justify-center gap-6'}>
+      <Image src={objbg6} alt={''} className={'absolute -left-64 top-48 scale-150 -z-10'}></Image>
+
       <BenefitCard className={'h-[275px] w-[250px]'} image={certificate}
                    alt={'icon sertifikat webinar'}>
         <p className={'text-4xl text-center'}>Sertifikat Webinar</p>
@@ -31,6 +41,8 @@ const Benefit = () => {
       </BenefitCard>
     </div>
     <div className={'relative flex items-center justify-center gap-6'}>
+    <Image src={objbg7} alt={''} className={'absolute -right-96 -bottom-24 scale-150 -z-10'}></Image>
+
       <BenefitCard className={'h-[536px] w-[350px]'} image={book}
                    alt={'icon sertifikat webinar'}>
         <p className={'text-4xl text-center'}>Akses Materi</p>

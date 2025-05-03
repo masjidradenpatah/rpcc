@@ -120,12 +120,20 @@
     @apply border-border outline-ring/50;
   }
 
+  html  {
+    scroll-behavior: smooth !important;
+  }
+
   html, body {
     height: 100%;
   }
 
   body {
     @apply text-foreground;
+  }
+
+  .container {
+    max-width: 1140px !important;
   }
 
 }
