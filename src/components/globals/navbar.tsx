@@ -14,7 +14,7 @@ const Navbar = () => {
               alt={'logo raden patah creative canvas'}
           />
 
-          <div className={'flex gap-4'}>
+          <div className={'hidden sm:flex gap-4'}>
             <Button variant={'ghost'} className={'border-none text-lg '}
                     asChild
             >
