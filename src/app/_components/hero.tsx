@@ -20,10 +20,22 @@ const Hero = () => {
             </Button>
             </div>
           </div>
-         <Image src={logorpccc} alt={'logo raden patah creative canvas'} className={'basis-5/12 max-md:size-64 max-lg:size-72 object-contain md:order-last order-first'}></Image>
-        <Image src={objbg1} alt={''} className={'xl:-left-72 lg:-left-36 md:-left-36 -left-12  -z-10  absolute'}></Image>
-        <Image src={objbg2} alt={''} className={'-right-24 xl:-right-72 -top-20  absolute'}></Image>
-        <Image src={objbg3} alt={''} className={'-right-12 md:-right-36 scale-50 md:scale-75 lg:scale-100 xl:-right-72  -bottom-64  absolute'}></Image>
+         <Image src={logorpccc} alt={'logo raden patah creative canvas'} className={'basis-5/12 max-md:size-64 max-lg:size-72 object-contain md:order-last order-first'}/>
+        <Image
+            src={objbg1}
+            alt={''}
+            className={'xl:-left-72 lg:-left-36 md:-left-36 -left-32  -z-10  absolute'}
+        />
+        <Image
+            src={objbg2}
+            alt={''}
+            className={'-right-24 xl:-right-72 -top-20  absolute'}
+        />
+        <Image
+            src={objbg3}
+            alt={''}
+            className={'-right-24 md:-right-36 scale-50 md:scale-75 lg:scale-100 xl:-right-72  -bottom-64  absolute'}
+        />
         </div>
       </section>
   )

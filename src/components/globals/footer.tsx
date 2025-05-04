@@ -13,7 +13,8 @@ import wa from "../../../public/wa.svg";
 
 const Footer = () => {
   return (
-      <footer className={'bg-background mt-24  border-2 shadow-[2px_-3px_48px_0px_rgba(0,0,0,0.25)]'}>
+      <footer className={'bg-background mt-24 px-8  border-2' +
+          ' shadow-[2px_-3px_48px_0px_rgba(0,0,0,0.25)]'}>
       <div
           className={'container max-w-[750px] mx-auto bg-white py-16 rounded-2xl' +
               ' flex  flex-col gap-6'}>
@@ -22,7 +23,8 @@ const Footer = () => {
             alt={'logo mrp'}
             className={'mx-auto'}
         />
-        <div className={'flex justify-between'}>
+        <div className={'flex  flex-col md:flex-row' +
+            ' items-center justify-start'}>
           <Image
             src={logorpccc}
             alt={'logo rpcc'}
@@ -31,7 +33,7 @@ const Footer = () => {
           <Image
               src={logounit}
               alt={'logo unit unit yang ada di mrp'}
-              className={'ms-auto'}
+              className={'md:ms-auto'}
           />
 
         </div>
